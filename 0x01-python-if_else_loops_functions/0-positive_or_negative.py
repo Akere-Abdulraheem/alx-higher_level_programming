@@ -7,5 +7,5 @@ if (number == 0):
     print(number, "is zero")
 if (number > 0):
     print(number, "is positive")
-else:
+if (number < 0):
     print(number, "is negative")
