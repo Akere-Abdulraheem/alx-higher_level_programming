@@ -2,5 +2,7 @@
 
 a = ord('a')
 while a <= ord ('z'):
-    print("%s" % chr (a))
-    a += 1
+	b = chr(a)
+	c = "{}".format(b)
+	print(c)
+	a += 1
