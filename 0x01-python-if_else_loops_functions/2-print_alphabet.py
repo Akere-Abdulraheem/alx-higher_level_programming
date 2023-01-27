@@ -8,6 +8,6 @@
 #  no import
 #  end="" --- allows me to print without a new line in py
 
-for x in range(97, 122):
+for x in range(97, 123):
     c = "{}".format(chr(x))
     print(c, end="")
