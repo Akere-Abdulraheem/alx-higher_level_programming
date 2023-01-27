@@ -11,4 +11,3 @@
 for x in range(97, 122):
     c = "{}".format(chr(x))
     print(c, end="")
-print("")
