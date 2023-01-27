@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
 a = ord('a')
-if a <= ord ('z'):
+while a <= ord ('z'):
     print("%s" % chr (a))
+    a += 1
