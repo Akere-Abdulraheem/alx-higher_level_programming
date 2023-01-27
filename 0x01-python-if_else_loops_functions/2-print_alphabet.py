@@ -12,3 +12,4 @@ for x in range(97, 122):
     b = chr(x)
     c = "{}".format(b)
     print(c)
+#   a += 1
