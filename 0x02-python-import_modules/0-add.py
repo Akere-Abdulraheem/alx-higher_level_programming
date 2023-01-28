@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 '''
-To write a program thats imports the function 'add'
+To write a program thats imports the function 'add' from file 'add_0.py'
 ........................RULES.....................
 print with .format()
 assign values to variable(a and b)
@@ -17,10 +17,22 @@ code shouldn't run when imported using __import__
 # var d store the f-format
 
 
-def add(a, b):
-    return a + b
+#def add(a, b):
+#    """My addition function
+#
+#    Args:
+#        a: first integer
+#	b: second integer
+#
+#    Returns:
+#        The return value. a + b
+#    """
+#    return (a + b)
 
 
+
+
+from add_0 import add
 a = 1
 b = 2
 d = "{0} + {1} = {2}".format(a, b, add(a, b))
