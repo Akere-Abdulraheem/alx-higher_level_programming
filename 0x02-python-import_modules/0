@@ -17,20 +17,11 @@ code shouldn't run when imported using __import__
 # var d store the f-format
 
 
-#def add(a, b):
-#    """My addition function
-#
-#    Args:
-#        a: first integer
-#	b: second integer
-#
-#    Returns:
-#        The return value. a + b
-#    """
-#    return (a + b)
+def add(a, b):
+    return a + b
 
-import calculator_1
-a = 10
-b = 5
-d = "{0} + {1} = {2}".format(a, b, calculator_1(a, b))
+
+a = 1
+b = 2
+d = "{0} + {1} = {2}".format(a, b, add(a, b))
 print(d)
