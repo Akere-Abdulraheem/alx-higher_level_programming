@@ -28,11 +28,11 @@
 #    """
 #    return (a + b)
 
-from add_0 import add as a
+from add_0 import add as c
 
 if __name__ == "__main__"  # This line does not allow the code to be
 # executed when imported
 a = 1
 b = 2
-d = "{0} + {1} = {2}".format(a, b, a(a, b))
+d = "{0} + {1} = {2}".format(a, b, c(a, b))
 print(d)
