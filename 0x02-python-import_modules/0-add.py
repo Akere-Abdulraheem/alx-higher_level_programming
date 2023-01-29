@@ -16,22 +16,23 @@
 # var d store the f-format
 
 
-#def add(a, b):
+# def add(a, b):
 #    """My addition function
 #
 #    Args:
 #        a: first integer
-#	b: second integer
+#        b: second integer
 #
 #    Returns:
 #        The return value. a + b
 #    """
 #    return (a + b)
 
-
-
-
 from add_0 import add
+
+if __name__ == "__main__":
+    add()
+
 a = 1
 b = 2
 d = "{0} + {1} = {2}".format(a, b, add(a, b))
