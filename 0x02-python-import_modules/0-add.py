@@ -6,7 +6,7 @@
 #  print with .format()
 #  assign values to variable(a and b)
 #  programs displays 'value a + value b = addition of a and b'
-#  CAN ONE USE ADD_0 once
+#  CAN ONE USE *ADD_0* once
 #  no __import__ or *
 #  code shouldn't run when imported using __import__
 
