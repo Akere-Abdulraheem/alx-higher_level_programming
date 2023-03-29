@@ -1,0 +1,40 @@
+Import modules here are like headers in cbut little different
+modules are any python file
+
+to import you need an import statement{import}
+e.g
+B
+>>import math
+
+using from ... import
+>>from random import randint
+
+as alias module
+>> import math as m
+
+importing from another file or folder 
+
+
+*my1.py*
+def say_hello():
+	print("Hello, world!")
+
+*my2.py*
+import my1
+
+my1.say_hello()
+
+	OR
+	/if in a subdir/
+import subdir.my1
+
+my1.say_hello()
+
+	OR
+	/if in a different dir/
+
+
+
+
+
+
