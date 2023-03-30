@@ -13,10 +13,32 @@ add ";" after every instructions
 	--> name VARCHAR(256),
 	-->);
 
-6. use [db_name]- to change to a database
+6. Select * from [table_name]- show all data in a table
 
-7. select users();- show current user
+7. use [db_name]- to change to a database
 
+8. select users();- show current user
+
+9. insert into [table_name] ^^^(Name) values ^^^('Yinka');
+
+10. Delete from [table_name]- deletes all
+			but if where condition column = expression
+
+create table posts( post_id INT AUTO_INCREMENT, content VARCHAR(256), primary key(post_id), foreign key(user_id) REFERENCES user(user_id));
+
+select content, posts.user_id, user.user_id, name from posts join user on po
+sts.user_id =user.user_id;
+
+// Shows row counts
+select Count(*) from first_table;
++----------+
+| Count(*) |
++----------+
+|        0 |
++----------+
+
+// list the columns in a table
+show create table `table_name`
 
 // This creates a user vagrant with password 'password'
 CREATE USER 'vagrant'@'localhost' IDENTIFIED BY 'password'
