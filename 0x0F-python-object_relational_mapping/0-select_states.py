@@ -36,3 +36,4 @@ for res in res: # res in res allows it to print on a new line
 
 mycursor.close()
 db.close()
+
