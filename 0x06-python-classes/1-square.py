@@ -13,7 +13,7 @@ class Square:
     '''
 A class with size as private instance attribute
 
-	The two underscores made it a privste instance!
+The two underscores made it a privste instance!
     '''
     def __init__(self, size):
         self.__size = size
